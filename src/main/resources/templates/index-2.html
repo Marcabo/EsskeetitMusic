@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Miraculous - Online Music Store Html Template
+Version: 1.0.0
+Author: Kamleshyadav
+Website: 
+Purchase: 
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- Begin Head -->
+
+
+<!-- source http://www.scnoob.com More templates http://www.scnoob.com/moban -->
+<head>
+    <title>Miraculous - Online Music Store Html Template</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="Music">
+    <meta name="keywords" content="">
+    <meta name="author" content="kamleshyadav">
+    <meta name="MobileOptimized" content="320">
+    <!--Start Style -->
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/swiper/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/nice_select/nice-select.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/player/volume.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/scroll/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/layui/src/css/layui.css">    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+    <script type="text/javascript">
+        function change_lyric_height() {
+            var window_height = document.body.clientHeight-50-250-90-75;
+            var song_lyric_level_row = document.getElementById("song-lyric-level-row-id");
+            song_lyric_level_row.style.height = window_height + "px";
+            // alert(window_height);
+        };
+    </script>
+    
+</head>
+
+<body>
+	
+   
+    <div class="ms_music_player">
+        <div class="ms_music_player_left">
+            <div class="row player_left_null">
+                <a href="#" class="play_logo_a">EssKeetit Music</a>
+            </div>
+            <div class="row player_left_cover">
+                <img src="images/music/r_music1.jpg" />
+            </div>
+            <div class="row player_left_info">
+                <div class="row player_song_name">
+                    <span href="#"  id="song_name">Dream Your Moments</span>
+                </div>
+                <div class="row player_song_info">
+                    <div class="song_info">
+                            <div class="song_info_artist">
+                                <span >艺人:</span>&nbsp;
+                                <a href="#" >艺术家</a>
+                            </div>
+                            &nbsp;&nbsp;
+                            <div class="song_info_cd">
+                               <span>专辑:</span>&nbsp;
+                               <a href="#">专辑名称</a>
+                            </div>
+                        </div>
+                </div>
+                
+                
+
+            </div>
+
+            <div class="row song-lyric-level-row" >
+                    <div class="song-lyric-level" id="song-lyric-level-row-id">
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                        <p>我是歌词</p>
+                        <p>我是歌词我是歌词我是歌词</p>
+                    </div>
+                </div>
+
+                <!----Audio Player Section---->
+        <div class="ms_player_wrapper ms_player_wrapper_music">
+                <div class="ms_player_close display_none">
+                    <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div>
+                <div class="player_mid">
+                    <div class="audio-player">
+                        <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                        <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                            <div class="player_left display_none">
+                                <div class="ms_play_song">
+                                    <div class="play_song_name">
+                                        
+                                        <a href="javascript:void(0);" id="playlist-text1" data-toggle="modal" data-target="#ms_immersion_model">
+                                            <div class="jp-now-playing flex-item">
+                                                <div class="jp-track-name"></div>
+                                                <div class="jp-artist-name"></div>
+                                                <input type="button" value="tijiao" />
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="play_song_options">
+                                    <ul>
+                                        <li><a href="#"><span class="song_optn_icon"><i class="ms_icon icon_download"></i></span>download now</a></li>
+                                        <li><a href="#"><span class="song_optn_icon"><i class="ms_icon icon_fav"></i></span>Add To Favourites</a></li>
+                                        <li><a href="#"><span class="song_optn_icon"><i class="ms_icon icon_playlist"></i></span>Add To Playlist</a></li>
+                                        <li><a href="#"><span class="song_optn_icon"><i class="ms_icon icon_share"></i></span>Share</a></li>
+                                    </ul>
+                                </div>
+                                <span class="play-left-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                            </div>
+                            <!----Right Queue---->
+                            <div class="jp_queue_wrapper display_none">
+                                <span class="que_text" id="myPlaylistQueue"><i class="fa fa-angle-up" aria-hidden="true"></i> queue</span>
+                                <div id="playlist-wrap" class="jp-playlist">
+                                    <div class="jp_queue_cls"><i class="fa fa-times" aria-hidden="true"></i></div>
+                                    <h2>queue</h2>
+                                    <div class="jp_queue_list_inner">
+                                        <ul>
+                                            <li>&nbsp;</li>
+                                        </ul>
+                                    </div>
+                                    <div class="jp_queue_btn">
+                                        <a href="javascript:;" class="ms_clear" data-toggle="modal" data-target="#clear_modal">clear</a>
+                                        <a href="clear_modal" class="ms_save" data-toggle="modal" data-target="#save_modal">save</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jp-type-playlist jp-type-playlist1">
+                                <div class="jp-gui jp-interface flex-wrap">
+                                    <div class="jp-controls flex-item">
+                                        <button class="jp-previous" tabindex="0">
+                        <i class="ms_play_control"></i>
+                    </button>
+                                        <button class="jp-play" tabindex="0">
+                        <i class="ms_play_control"></i>
+                    </button>
+                                        <button class="jp-next" tabindex="0">
+                        <i class="ms_play_control"></i>
+                    </button>
+                                    </div>
+                                    <div class="jp-progress-container flex-item">
+                                        <div class="jp-time-holder">
+                                            <span class="jp-current-time" role="timer" aria-label="time">&nbsp;</span>
+                                            <span class="jp-duration" role="timer" aria-label="duration">&nbsp;</span>
+                                        </div>
+                                        <div class="jp-progress">
+                                            <div class="jp-seek-bar">
+                                                <div class="jp-play-bar">
+                                                    <div class="bullet">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="jp-volume-controls flex-item">
+                                        <div class="widget knob-container">
+                                            <div class="knob-wrapper-outer">
+                                                <div class="knob-wrapper">
+                                                    <div class="knob-mask">
+                                                        <div class="knob d3"><span></span></div>
+                                                        <div class="handle"></div>
+                                                        <div class="round">
+                                                            <img src="images/svg/volume.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- <input></input> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="jp-toggles flex-item">
+                                        <button class="jp-shuffle" tabindex="0" title="Shuffle">
+                                        <i class="ms_play_control"></i></button>
+                                        <button class="jp-repeat" tabindex="0" title="Repeat"><i class="ms_play_control"></i></button>
+                                    </div>
+                                    <div class="jp_quality_optn custom_select">
+                                        <select>
+                            <option>quality</option>
+                            <option value="1">HD</option>
+                            <option value="2">High</option>
+                            <option value="3">medium</option>
+                            <option value="4">low</option>
+                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--main div-->
+            </div>
+        </div>
+        
+        <div class="ms_music_player_right">
+            <a class="player_shrink" id="player_shrink_close"><img src="images/shrink.png" /></a>
+            <div class="row play-list">
+                <!-- <div style="height: 200px;background-color:aquamarine;">
+dfdf
+                </div> -->
+                <div class="row reset_bs_row_margin play-list-title">
+                    <span>正在播放</span>
+                    <a href="#" >编辑</a>
+                </div>
+                <div class="row reset_bs_row_margin play-list-info">
+                    <table class="play-list-table">
+                        <thead class="play-list-table-thead">
+                            <tr>
+                                <th class="play-list-table-thead-num">#</th>
+                                <th class="play-list-table-thead-songname">歌曲</th>
+                                <th>艺人</th>
+                                <th class="play-list-table-thead-time">时长</th>                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                    <td class="play-list-table-thead-num">#</th>
+                                    <td class="play-list-table-thead-songname">歌曲</th>
+                                    <td>艺人</th>
+                                    <td class="play-list-table-thead-time">时长</th>                                
+                                </tr>
+                                <tr>
+                                    <td>#</th>
+                                    <td>歌曲</th>
+                                    <td>艺人</th>
+                                    <td>时长</th>                                
+                                </tr>
+                                <tr>
+                                    <td class="play-list-table-thead-num">#</th>
+                                    <td>歌曲</th>
+                                    <td>艺人</th>
+                                    <td>时长</th>                                
+                                </tr>
+                                <tr>
+                                    <td class="play-list-table-thead-num">#</th>
+                                    <td>歌曲</th>
+                                    <td>艺人</th>
+                                    <td>时长</th>                                
+                                </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    
+    <!--Main js file Style-->
+    <script type="text/javascript" src="js/plugins/layui/src/layui.js"></script>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/plugins/swiper/js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/plugins/player/jplayer.playlist.min.js"></script>
+    <script type="text/javascript" src="js/plugins/player/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="js/plugins/player/audio-player.js"></script>
+    <script type="text/javascript" src="js/plugins/player/volume.js"></script>
+    <script type="text/javascript" src="js/plugins/nice_select/jquery.nice-select.min.js"></script>
+	<script type="text/javascript" src="js/plugins/scroll/jquery.mCustomScrollbar.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!-- <script type="text/javascript" src="js/theme/skin/myskin/style.css"></script> -->
+    
+</body>
+
+
+<!-- source http://www.scnoob.com More templates http://www.scnoob.com/moban -->
+</html>
